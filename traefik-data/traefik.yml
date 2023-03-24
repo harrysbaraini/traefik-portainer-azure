@@ -29,6 +29,7 @@ certificatesResolvers:
     acme:
       email: hello@vanderleis.me
       storage: acme.json
+      #caserver: https://acme-v02.api.letsencrypt.org/directory
       keyType: EC384
       httpChallenge:
         entryPoint: web
